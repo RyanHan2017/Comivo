@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="com.saegil.comivo.Landing.ForgotActivity" >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/confirm_enter_password"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/confirm_enter_password1"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="13dp"
+            android:layout_alignParentRight="true"/>
+
+        <GridLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="4"
+            android:rowCount="1">
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+
+        </GridLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/reset_password_button"
+            android:layout_marginTop="60dp"
+            android:text="@string/reset_password_button"
+            android:background="@color/colorPrimaryButtonPressed"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

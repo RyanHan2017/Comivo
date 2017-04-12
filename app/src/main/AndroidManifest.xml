@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saegil.comivo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".Landing.ForgotActivity"
+            android:label="COMIVO" />
+        <activity android:name=".Landing.ConfirmActivity" />
+        <activity android:name=".Landing.ChangePasswordActivity" />
+        <activity android:name=".Landing.SignupActivity" />
+        <activity
+            android:name=".Landing.MembershipAgreementActivity"
+            android:label="MEMBERSHIP AGREEMENT" />
+        <activity
+            android:name=".Landing.PrivacyPolicyActivity"
+            android:label="PRIVACY POLICY" />
+        <activity
+            android:name=".Landing.SignupDoneActivity"
+            android:label="COMIVO" />
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".message.MessageActivity"
+            android:label="MESSAGE"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".reviews.ReviewsActivity" />
+        <activity android:name=".community.CommunityActivity" />
+        <activity android:name=".account.AccountActivity" />
+        <activity
+            android:name=".message.QuoteActivity"
+            android:label="QOUTE-BENZOIC ACID" />
+        <activity
+            android:name=".message.OrderActivity"
+            android:label="ORDER-BENZOIC ACID" />
+        <activity
+            android:name=".message.OrderdoneActivity"
+            android:label="ORDER-BENZOIC ACID" />
+        <activity
+            android:name=".setting.SettingActivity"
+            android:label="SETTING" />
+        <activity
+            android:name=".setting.ProfileActivity"
+            android:label="MY PROFILE" />
+        <activity
+            android:name=".setting.SocialMediaActivity"
+            android:label="SOCIAL MEDIA" />
+        <activity
+            android:name=".setting.NotificationActivity"
+            android:label="NOTIFICATION BUYER" />
+        <activity
+            android:name=".setting.PrivacyActivity"
+            android:label="PRIVACY" />
+        <activity
+            android:name=".setting.FacebookActivity"
+            android:label="" />
+        <activity
+            android:name=".setting.QaActivity"
+            android:label="Q &amp; A" />
+        <activity android:name=".setting.DetailQAActivity" />
+        <activity
+            android:name=".setting.AboutActivity"
+            android:label="ABOUT COMIVO" />
+        <activity
+            android:name=".setting.PasswordActivity"
+            android:label="RESET PASSWORD" />
+        <activity
+            android:name=".reviews.CompanyVerifyActivity"
+            android:label="AMERICA CHEMICAL LLC" />
+        <activity
+            android:name=".reviews.WriteReviewActivity"
+            android:label="AMERICA CHEMICAL LLC" />
+        <activity
+            android:name=".reviews.CompanyDetailActivity"
+            android:label="AMERICA CHEMICAL LLC" />
+        <activity
+            android:name=".reviews.CommentReplyActivity"
+            android:label="AMERICA CHEMICAL LLC" />
+        <activity android:name=".reviews.VerifyActivity" />
+        <activity android:name=".community.TimeLineActivity" />
+        <activity android:name=".community.PostActivity" />
+        <activity android:name=".community.AnswerActivity" />
+        <activity android:name=".community.QuestionActivity" />
+        <activity android:name=".community.ChemicalActivity" />
+        <activity android:name=".community.TimeLinePostDetailsActivity" />
+        <activity android:name=".community.WhitePostActivity"></activity>
+        <activity android:name=".account.InquiresActivity" />
+        <activity android:name=".account.OpportunitiesActivity" />
+        <activity android:name=".account.OrdersActivity" />
+        <activity android:name=".account.ProductsActivity" />
+        <activity android:name=".account.adapter.ProductsAddActivity" android:label="ADD PRODUCT"></activity>
+    </application>
+
+</manifest>

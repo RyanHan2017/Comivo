@@ -1,0 +1,737 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.saegil.comivo.Landing.ForgotActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chemical"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:text="Benzoic Acid"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title1"
+                    android:text="Benzoic acid fafdsfsdafdsdfsdf,dfmsdfsdfsdf"
+                    android:textSize="13dp"
+                    android:textColor="#777"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title1"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="CAS :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title1"
+                    android:layout_marginRight="5dp"
+                    android:text="77929-12-1"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title1"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Mol Formula :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title1"
+                    android:layout_marginRight="5dp"
+                    android:text="C6H5CH20H"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title2"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Mol Weight :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title2"
+                    android:layout_marginRight="5dp"
+                    android:text="108.13"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title2"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Pulity :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title2"
+                    android:layout_marginRight="5dp"
+                    android:text=">99%"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title3"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Packaging :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="25KG / Bag"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title3"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POL : "
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="Shanghai, China"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POD :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_1"
+                    android:layout_toRightOf="@+id/left_title4"
+                    android:layout_marginRight="5dp"
+                    android:text="Houston, United States"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_2"
+                    android:layout_toRightOf="@+id/left_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Inconterms :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_1"
+                    android:layout_toRightOf="@+id/right_title4"
+                    android:layout_marginRight="5dp"
+                    android:text="CIF"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_2"
+                    android:layout_toRightOf="@+id/right_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="0dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title5"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Payment :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title5"
+                    android:layout_marginRight="5dp"
+                    android:text="57%T/T+50%D/P"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title5"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Quantity :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title5"
+                    android:layout_marginRight="5dp"
+                    android:text="100kg"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#efefef"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#333"
+            android:layout_marginLeft="10dp"
+            android:text="Hi I need this ASAP"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/inquires_send_offer_button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:text="SEND OFFER"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#777"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chemical"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:text="Benzoic Acid"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title1"
+                    android:text="Benzoic acid fafdsfsdafdsdfsdf,dfmsdfsdfsdf"
+                    android:textSize="13dp"
+                    android:textColor="#777"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/linear1"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="2dp"
+        android:weightSum="100" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title1"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="CAS :"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/left_title1"
+                android:layout_marginRight="5dp"
+                android:text="77929-12-1"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title1"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Mol Formula :"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/right_title1"
+                android:layout_marginRight="5dp"
+                android:text="C6H5CH20H"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:weightSum="100" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title2"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Mol Weight :"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/left_title2"
+                android:layout_marginRight="5dp"
+                android:text="108.13"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title2"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Pulity :"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/right_title2"
+                android:layout_marginRight="5dp"
+                android:text=">99%"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:weightSum="100" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title3"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Packaging :"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/left_title3"
+                android:layout_marginRight="5dp"
+                android:text="25KG / Bag"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title3"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="POL : "
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/right_title3"
+                android:layout_marginRight="5dp"
+                android:text="Shanghai, China"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:weightSum="100" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title4"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="POD :"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title4_1"
+                android:layout_toRightOf="@+id/left_title4"
+                android:layout_marginRight="5dp"
+                android:text="Houston, United States"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title4_2"
+                android:layout_toRightOf="@+id/left_title4_1"
+                android:layout_marginRight="5dp"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title4"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Inconterms :"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title4_1"
+                android:layout_toRightOf="@+id/right_title4"
+                android:layout_marginRight="5dp"
+                android:text="CIF"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title4_2"
+                android:layout_toRightOf="@+id/right_title4_1"
+                android:layout_marginRight="5dp"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="0dp"
+        android:weightSum="100" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left_title5"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Payment :"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/left_title5"
+                android:layout_marginRight="5dp"
+                android:text="57%T/T+50%D/P"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/right_title5"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:paddingLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:text="Quantity :"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/right_title5"
+                android:layout_marginRight="5dp"
+                android:text="100kg"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#efefef"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#333"
+            android:layout_marginLeft="10dp"
+            android:text="Hi I need this ASAP"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/inquires_update_quote_button"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:text="UPDATE QUOTE"
+            android:textColor="@color/white"
+            android:background="#f7ac45"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#777"/>
+</LinearLayout>

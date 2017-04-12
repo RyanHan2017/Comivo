@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1280c4</color>
+    <color name="colorPrimaryDark">#1280c4</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="background_color">#1280c4</color>
+
+    <color name="edittextdefault">#1972a9</color>
+    <color name="edittextdisabled">#166291</color>
+
+    <color name="colorPrimaryButton">#0c39A5</color>
+    <color name="colorPrimaryButtonPressed">#0c3955</color>
+
+</resources>

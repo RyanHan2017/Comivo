@@ -1,0 +1,919 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.saegil.comivo.Landing.ForgotActivity">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_blue" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/number_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order No. "
+                android:layout_alignLeft="@+id/number_text1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_alignParentRight="true"/>
+            <TextView
+                android:id="@+id/number_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="201504150000001"
+                android:layout_alignParentRight="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="48"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="To : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="ChemXLLC"/>
+            </LinearLayout
+                >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Address : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="255 S Lake Ave, Suite 1150, Pasadena, CA 91150, Unite States"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Tel : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="1-262-788-7888"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Fax : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="1-626-788-7999"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Att : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="Kwong Sit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="4"
+            android:src="@drawable/vertical_line"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="48"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="From : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="Sunivo America LLC"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Address : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="3050 Post Qak. Suite 520, Houston, TX 77056, Unite States"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Tel : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="1-832-255-8880"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Fax : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="12dp"
+                    android:text="1-832-255-8885"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:text="SUPPLIER BANK INFORMATION"
+            android:background="#d4d4d4"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="48"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Supplier Name: "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="Sunivo America LLC"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Supplier Address: "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="3050 Post Oak Blav, Suite 520, Houston, TX 77056, Unite States"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Tel: "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="1-832-255-8880"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="4"
+            android:src="@drawable/vertical_line"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="48"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Account No : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="Bank of America"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Bank Address : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="5070 Post Oak Blvd, Houston, TX 77006"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Bank Name : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="528719299"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:gravity="right"
+                    android:textSize="12dp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:text="Swift Code : "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="12dp"
+                    android:text="BKCHCHSDIC"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_marginTop="5dp"
+        android:background="#AAA"
+        android:id="@+id/linearLayout6" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chemical"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:text="Benzoic Acid"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title1"
+                    android:text="Benzoic acid fafdsfsdafdsdfsdf,dfmsdfsdfsdf"
+                    android:textSize="13dp"
+                    android:textColor="#777"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-40dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/image1"
+                    android:src="@drawable/down_arrow"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#AAA"
+            android:id="@+id/linearLayout6" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title1"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Purity :"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title1"
+                    android:layout_marginRight="5dp"
+                    android:text=">99%"
+                    android:textSize="12dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title1"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Packaging :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title1"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:text="25KG/Bag"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title2"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POL :"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title2"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:text="Shanghai, China"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title2"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POD :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title2"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:text="Houston, United States"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title3"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Incoterms :"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="CIF"
+                    android:textSize="12dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title3"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Payment : "
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="O/A 90 Days"
+                    android:textSize="12dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Price :"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_1"
+                    android:layout_toRightOf="@+id/left_title4"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:text="$10000.00 / Ton"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_2"
+                    android:layout_toRightOf="@+id/left_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Total :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_1"
+                    android:layout_toRightOf="@+id/right_title4"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:text="USD 1,000*100=100,000.00"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_2"
+                    android:layout_toRightOf="@+id/right_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title5"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Deliver Date :"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title5"
+                    android:layout_marginRight="5dp"
+                    android:text="11/20/2015"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:weightSum="100">
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="49"
+            android:padding="5dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/message_man1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000"
+                    android:text="Toniy Sit"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="Sunivo America LLC"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="40">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/confirmed_ico"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="17:09"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="03/25/2015"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="49"
+            android:padding="5dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/message_man1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000"
+                    android:text="Toniy Sit"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="Sunivo America LLC"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="40">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/confirmed_ico"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="17:09"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#777"
+                    android:textSize="12dp"
+                    android:text="03/25/2015"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

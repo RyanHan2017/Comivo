@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Comivo</string>
+    <string name="placeholder_email">Email*</string>
+    <string name="placeholder_password">Password*</string>
+    <string name="checktext">Keep me logged in</string>
+    <string name="signup_button">SIGN UP</string>
+    <string name="login_button">LOG IN</string>
+    <string name="forgot_text">Forgot Password?</string>
+
+    <string name="forgot_text_title">FORGOT PASSWORD</string>
+    <string name="reset_password_button">RESET PASSWORD</string>
+
+    <string name="confirm_enter_password">ENTER PASSCODE</string>
+    <string name="confirm_enter_password1">Enter your passcode</string>
+
+    <string name="reset_text_title">RESET PASSWORD</string>
+    <string name="placeholder_reset_newpassword">New Password</string>
+    <string name="placeholder_reset_confirmpassword">Confirm Password</string>
+    <string name="change_password_button">CHANGE PASSWORD</string>
+
+    <string name="signup_text_title">FREE SIGN UP</string>
+    <string name="placeholder_signup_firstname">First Name*</string>
+    <string name="placeholder_signup_lastname">Last Name*</string>
+    <string name="placeholder_signup_email">Email*</string>
+    <string name="placeholder_signup_confirmemail">Confirm Email*</string>
+    <string name="placeholder_signup_password">Password*</string>
+    <string name="placeholder_signup_confirmpassword">Confirm Password*</string>
+    <string name="placeholder_signup_company">Company*</string>
+    <string name="signup_accounttype">Account Type* : </string>
+
+    <string name="signup_button_text">SIGN UP</string>
+
+    <string name="signupdone_text_title">THANK YOU</string>
+    <string name="signupdone_text1">Thank you for signing up with COMIVO.</string>
+    <string name="signupdone_text2">Please check your email message in the next few minutes</string>
+    <string name="signupdone_text3">for a confirmation code.</string>
+    <string name="signupdone_text4">Follow the instructions to confirm your account.</string>
+    <string name="signupdone_text5">Thank you from the COMIVO Team!</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

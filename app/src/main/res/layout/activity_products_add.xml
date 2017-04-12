@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:orientation="vertical"
+    tools:context="com.saegil.comivo.Landing.ForgotActivity" >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="PLEASE ADD PRODUCT NAME AND CAS NUMBER"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Products Name"/>
+        <EditText
+            android:id="@+id/prodcuts_add_edit1"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 100% T/T"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CAS"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <EditText
+                android:id="@+id/prodcuts_add_edit2"
+                android:layout_width="0dp"
+                android:padding="7dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter CAS1"
+                android:textSize="16dp"
+                android:layout_weight="30"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+            <EditText
+                android:id="@+id/prodcuts_add_edit3"
+                android:padding="7dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:hint="Enter CAS2"
+                android:layout_weight="30"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+            <EditText
+                android:id="@+id/prodcuts_add_edit4"
+                android:padding="7dp"
+                android:layout_width="0dp"
+                android:hint="Enter CAS3"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/productsadd_add_button"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="ADD"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/productsadd_submit_button"
+                android:layout_marginRight="10dp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="SUBMIT"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

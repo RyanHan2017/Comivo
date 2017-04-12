@@ -1,0 +1,387 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.saegil.comivo.Landing.ForgotActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title1"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Purity :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title1"
+                    android:layout_marginRight="5dp"
+                    android:text=">99%"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title1"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Packaging :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title1"
+                    android:layout_marginRight="5dp"
+                    android:text="25KG/Bag"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title2"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POL :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title2"
+                    android:layout_marginRight="5dp"
+                    android:text="Shanghai, China"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title2"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="POD :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title2"
+                    android:layout_marginRight="5dp"
+                    android:text="Houston, United States"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title3"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Incoterms :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="CIF"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title3"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Payment : "
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/right_title3"
+                    android:layout_marginRight="5dp"
+                    android:text="O/A 90 Days"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Price :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_1"
+                    android:layout_toRightOf="@+id/left_title4"
+                    android:layout_marginRight="5dp"
+                    android:text="$10000.00 / Ton"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title4_2"
+                    android:layout_toRightOf="@+id/left_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Total :"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_1"
+                    android:layout_toRightOf="@+id/right_title4"
+                    android:layout_marginRight="5dp"
+                    android:text="$100,000.00"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/right_title4_2"
+                    android:layout_toRightOf="@+id/right_title4_1"
+                    android:layout_marginRight="5dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="0dp"
+            android:weightSum="100" >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_title5"
+                    android:paddingLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Deliver Date :"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/left_title5"
+                    android:layout_marginRight="5dp"
+                    android:text="11/20/2015"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="4"
+        android:rowCount="1">
+        <ImageView
+            android:id="@+id/circle_image1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_ico1"/>
+        <ImageView
+            android:id="@+id/circle_image2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_ico2"/>
+        <ImageView
+            android:id="@+id/circle_image3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_ico2"/>
+    </GridLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="10dp"
+        android:background="#AAA"
+        android:id="@+id/linearLayout7" />
+
+    <GridLayout
+        android:id="@+id/buttongroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="4"
+        android:rowCount="1">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="IGNORE"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="REQUEST QUOTE UPDATE"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="MAKE ORDER"/>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:layout_gravity="top"
+        android:background="@color/white"
+        android:layout_marginBottom="40dp">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#f0f0f0"
+        android:layout_marginTop="-40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:src="@drawable/plus_symbol"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
